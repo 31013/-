@@ -1,0 +1,35 @@
+<!--start.wxml-->
+
+
+
+<button class="btn1" bindtap="getDataFromOneNet">
+209智能家居(OneNet)</button>
+
+
+
+<radio-group class="radio-group" bindchange="radioChange">
+
+  <label style="display: flex"  wx:for="{{items}}">
+
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+
+  </label>
+
+</radio-group>
+
+
+
+<input id="input" placeholder="输入您喜欢的房间温度"
+placeholder-style="font-size:15px; color:#f0f0f4;" 
+
+style="font-weight:bolder; font-size:15px; color:#4c221b; padding-left: 30rpx"
+
+  bindinput="change"/>
+
+
+
+<text id="text">提示：当目前温度异常时报警。单位：摄氏度</text>
+
+<button id="btn3" style="opacity: {{opacity}}" 
+
+disabled="{{disabled}}" bindtap="send">考察温度是否合适</button>

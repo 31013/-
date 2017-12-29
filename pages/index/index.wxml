@@ -1,0 +1,7 @@
+<head>
+<button bindtap="setPlain">进入监控状态</button>
+
+
+<meta http-equiv="refresh" content="1">
+</meta>
+</head>

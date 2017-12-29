@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/start/start",
+    "pages/tianqi/tianqi",
+    "pages/images/images",
+    "pages/shuo/shuo"
+  ],
+
+ "window": {
+"navigationBarBackgroundColor":"#66b3ff",
+"navigationBarTextStyle":"white",
+"navigationBarTitleText":"智能家居",
+"backgroundColor":"#afafc9",
+"enablePullDownRefresh":"true",
+"onReachBottomDistance":10
+},
+"debug": true,
+"tabBar": {
+  "color": "#000000",
+  "selectedcolor": "#3d3b4f",
+  "borderStyle": "black",
+  "backgroundColor": "#f0f0f4",
+  "list": [
+    {
+      "pagePath": "pages/shuo/shuo",
+      "text": "产品简介",
+      "iconPath": "/pages/images/cloud.png",
+      "selectedIconPath": "/pages/images/star.png"
+    },
+
+    {
+      "pagePath": "pages/index/index",
+      "text": "安全警报装置",
+      "iconPath": "/pages/images/sun.png",
+      "selectedIconPath": "/pages/images/star.png"
+    },
+    {
+      "pagePath": "pages/start/start",
+      "text": "睁眼看天气",
+      "iconPath": "/pages/images/eye.png",
+      "selectedIconPath": "/pages/images/star.png"
+    }
+  ]
+}
+
+}
